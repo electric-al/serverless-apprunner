@@ -15,8 +15,6 @@ module.exports =
             httpPort: { type: 'integer' },
             cpu: { type: 'integer', enum: [256, 512, 1024, 2048, 4096] },
             environment: { type: 'object' },
-            executionRoleArn: { anyOf: [{ type: 'object' }, { type: 'string' }] },
-            taskRoleArn: { anyOf: [{ type: 'object' }, { type: 'string' }] },
             iamRoleStatements: { type: 'array' },
             tags: {
               type: 'object',
