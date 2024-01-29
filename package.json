@@ -1,0 +1,20 @@
+{
+  "name": "serverless-apprunner",
+  "version": "0.1.0",
+  "description": "A serverless plugin that automatically deploys docker files to AWS app runner",
+  "peerDependencies": {
+    "serverless": "2 || 3"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Al James al.james@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "serverless",
+    "fargate",
+    "aws",
+    "apprunner"
+  ]
+}
