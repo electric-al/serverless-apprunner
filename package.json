@@ -9,11 +9,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electric-al/serverless-apprunner.git"
+  },
   "author": "Al James al.james@gmail.com",
   "license": "MIT",
   "keywords": [
     "serverless",
-    "fargate",
     "aws",
     "apprunner"
   ]
