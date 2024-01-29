@@ -37,7 +37,7 @@ class ServerlessAppRunner {
         tags: this.getResourceTags(originalService),
         iamRoleStatements: this.getIamRoleStatements(originalService),
       });
-      parsedConfig[serviceId] = service;
+      parsedConfig.services[serviceId] = service;
     }
 
     const images = await this.resolveServicesImages(parsedConfig.services);

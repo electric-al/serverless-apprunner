@@ -8,8 +8,9 @@ module.exports = config => {
     serviceName: config.serviceName,
     memory: config.memory || '0.5GB',
     cpu: config.cpu || 256,
+    image: config.image,
+    httpPort: config.httpPort, 
     environment: config.environment || {},
-    executionRoleArn: config.executionRoleArn,
     iamRoleStatements: config.iamRoleStatements || [],
     vpc: {
       subnetIds: get(config, 'vpc.subnetIds', []),
